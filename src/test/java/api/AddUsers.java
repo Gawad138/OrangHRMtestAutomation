@@ -68,7 +68,7 @@ public class AddUsers {
 	        RequestSpecification request = RestAssured.given()
 	                .baseUri(BASE_URL)
 	                .contentType(ContentType.JSON)
-	                .header("cookie", "orangehrm=l1t266ll6ki38rp12634vpcs5f")  // Replace with actual token
+	                .header("cookie", "orangehrm=mjip7673hhenm93ete907nddho")  // Replace with actual token
 	                .body(jsonString);
 
 	        // Send POST request
@@ -111,7 +111,7 @@ public class AddUsers {
 	        RequestSpecification request = RestAssured.given()
 	                .baseUri(url)
 	                .contentType(ContentType.JSON)
-	                .header("cookie", "oorangehrm=l1t266ll6ki38rp12634vpcs5f")  // Replace with actual token
+	                .header("cookie", "orangehrm=mjip7673hhenm93ete907nddho")  // Replace with actual token
 	                .body(detailsJsonString);
 
 	        // Send POST request
