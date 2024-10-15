@@ -28,5 +28,5 @@ Follow these steps to set up and run the project locally:
    ```bash
    mvn clean install
    ```
-3. Open the project in **IntelliJ IDEA**, configure the test environment, and run tests using **TestNG**.
+3. Open the project in **IntelliJ IDEA**, configure the test environment, and run tests using **TestNG.xml**.
 
