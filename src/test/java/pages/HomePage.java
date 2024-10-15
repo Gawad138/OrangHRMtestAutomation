@@ -30,9 +30,9 @@ private By SearchButton= By.xpath("//button[@type='submit'][contains(.,'Search')
 	    
 	    
 	    
-	    public PIM SearchForTheEmployee() {
-	    	clickButton(driver.findElement(pim))
-			return PIM ;
+	    public void SearchForTheEmployee() {
+	    	clickButton(driver.findElement(pim));
+
 	        
 	    }
 	    public void SearchUsingEmployeeId(String id) {
